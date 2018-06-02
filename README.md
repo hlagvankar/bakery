@@ -51,7 +51,8 @@ A successfully passing test(s) that demonstrates the following output:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 x 3 $5.95
 
 
-## Running the application
+## Running the application  
+It requires pipe separated file  
 `sbt "run --input-path <path-to-your-file>"`  
 for e.g.  
 `sbt "run --input-path E:\test.csv`
