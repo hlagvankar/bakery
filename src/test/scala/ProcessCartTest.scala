@@ -12,7 +12,7 @@ class ProcessCartTest extends FlatSpec with Matchers {
   }
 
   "processOrders" should "calculate breakdown of order" in {
-    val items = Seq(Items(10, "VS5"))
+    val items = Seq(Items(10, "VS5"), Items(14, "MB11"), Items(13, "CF"))
     val po = pc.processOrders(items)
   }
 
